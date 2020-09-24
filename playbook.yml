@@ -1,6 +1,7 @@
-- name: Deploy a web application
-  hosts: atest-target*
+- name: Deploy database server(s)
+  hosts: db-servers
   roles:
     - python
     - mysql-db
-    - flask-web
+- name: Deploy web server(s)
+  hosts: web-servers
