@@ -3,5 +3,7 @@
   roles:
     - python
     - mysql-db
-- name: Deploy web server(s)
-  hosts: web-servers
+# - name: Deploy web server(s)
+#  hosts: web-servers
+#  roles:
+#    - python
