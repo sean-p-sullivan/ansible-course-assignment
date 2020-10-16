@@ -1,8 +1,8 @@
 - name: Deploy database server(s)
   hosts: db-servers
   roles:
-    - python
     - mysql-db
+    - python
 # - name: Deploy web server(s)
 #  hosts: web-servers
 #  roles:

@@ -7,7 +7,7 @@
     vm_size: Standard_B1ms
     admin_username: smaug
     admin_password: "{{ vm_password }}"
-    network_interfaces: nic-assign-db
+    network_interfaces: assign-db-nic
     os_type: Linux
     image:
         offer: CentOS
