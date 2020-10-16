@@ -1,5 +1,5 @@
 - name: Deploy database servers
-  hosts: db-servers
+  hosts: all
   roles:
     - mysql-db
     - python
