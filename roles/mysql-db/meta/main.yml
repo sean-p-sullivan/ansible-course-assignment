@@ -33,7 +33,7 @@ galaxy_info:
   #
   #platforms:
   name: Azure Debian
-  versions: - 9
+  versions: 9
   #- name: TMOS
   #  versions:
   #  - all
