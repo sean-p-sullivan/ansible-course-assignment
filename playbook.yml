@@ -1,4 +1,4 @@
-- name: Deploy database server(s)
+- name: Deploy database servers
   hosts: db-servers
   roles:
     - mysql-db
