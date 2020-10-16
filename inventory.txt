@@ -1,5 +1,0 @@
-[db-servers]
-assign-sql01 ansible_host=10.0.0.13 ansible_ssh_pass=doingstuffinazure1!
-[web-servers]
-assign-web01 ansible_host=10.0.0.11 ansible_ssh_pass=doingstuffinazure1!
-assign-web02 ansible_host=10.0.0.12 ansible_ssh_pass=doingstuffinazure1!
