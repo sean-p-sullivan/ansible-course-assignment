@@ -32,8 +32,8 @@ galaxy_info:
   # platform on this list, let us know and we'll get it added!
   #
   #platforms:
- name: Azure Debian
- versions:
+  name: Azure Debian
+  versions:
  - 9
   #- name: TMOS
   #  versions:
