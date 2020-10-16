@@ -2,18 +2,18 @@
 # tasks file for mysql-db
 - name: Create VM
     azure_rm_virtualmachine:
-    resource_group: boggs-rg-ncus
-    name: assign-db01
-    vm_size: Standard_B1ms
-    admin_username: smaug
-    admin_password: "{{ vm_password }}"
-    network_interfaces: assign-db-nic
-    os_type: Linux
-    image:
-        offer: CentOS
-        publisher: OpenLogic
-        sku: 8_2
-        version: latest
+      resource_group: boggs-rg-ncus
+      name: assign-db01
+      vm_size: Standard_B1ms
+      admin_username: smaug
+      admin_password: "{{ vm_password }}"
+      network_interfaces: assign-db-nic
+      os_type: Linux
+      image:
+          offer: CentOS
+          publisher: OpenLogic
+          sku: '8.2'
+          version: latest
 - name: Install MariaDB database
   apt: 
     name: ['mariadb-server', 'mariadb-client']
